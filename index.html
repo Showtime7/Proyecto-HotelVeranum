@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <!-- Incluye el CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../Assets/imagenes/logo (2).png" alt="Hotel" height="30">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hoteles.html">HOTELES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- INFORMACION DE HOTELES -->
+      <div class="container my-5">
+        <div id="carouselExampleCaptions" class="carousel slide mx-auto" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../Assets/imagenes/hotel1.jpg" class="d-block w-100" alt="Hotel Nueva Esperanza">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Hotel Nueva Esperanza</h5>
+                <p>Disfruta de las mejores vistas de Santiago desde el hotel nueva esperanza</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../Assets/imagenes/hotel2.jpg" class="d-block w-100" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Hotel Vista Pacifica</h5>
+                <p>Disfruta de un agradable descanso respirando los aires del hotel vista pacifica con excelente vista al mar</p>
+              </div>
+            </div>
+            <!-- Puedes agregar más items aquí -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    
+       <!-- Tarjetas de los hoteles -->
+      <div class="container my-5">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../Assets/imagenes/hotel1.jpg" class="img-fluid rounded-start" alt="Hotel Nueva Esperanza">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hotel Nueva Esperanza</h5>
+                <p class="card-text">A 10,46 km del centro</p>
+                <p class="card-text"><small class="text-muted">Precio por noche con impuestos desde</small></p>
+                <p class="card-text h3">$100.000</p>
+                <a href="hoteles.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../Assets/imagenes/hotel2.jpg" class="img-fluid rounded-start" alt="Hotel Vista Pacifica">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hotel Vista Pacifica</h5>
+                <p class="card-text">A 15,30 km del terminal de viña del mar</p>
+                <p class="card-text"><small class="text-muted">Precio por noche desde los</small></p>
+                <p class="card-text h3">$120.000</p>
+                <a href="hoteles.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Incluye los scripts de Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* style.css */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Color blanco al pasar el mouse */
+}
+
+.navbar-brand img {
+    height: 30px; /* Ajusta la altura de la imagen según sea necesario */
+}
+
+.navbar {
+    background-color: #000000; /* Color de fondo negro */
+}
+
+/* Ajusta el tamaño de las imágenes del carrusel */
+.carousel-item img {
+    max-height: 500px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover; /* Asegura que las imágenes se ajusten bien dentro del contenedor */
+    width: 100%;
+}
+
+/* Estilo para los textos en el carrusel */
+.carousel-caption h5,
+.carousel-caption p {
+    color: #ffffff; /* Cambia este color según tus necesidades */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semi-transparente */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    font-weight: bold; /* Poner en negrita */
+}
